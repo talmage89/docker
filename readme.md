@@ -6,3 +6,5 @@ Build the image using
 Generate a container from the image using 
 
         docker run -d --rm --name buster -p 8080:8080 testimage:latest
+
+Server will be started at http://localhost:8080/
